@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local databases and generated vector stores
+*.db
+*.sqlite
+*.sqlite3
+notebooks/chroma_langchain_db/
+
+# Local datasets may contain personal or otherwise sensitive information
+data/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
